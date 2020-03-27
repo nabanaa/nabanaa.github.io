@@ -1,0 +1,77 @@
+
+body{
+    background-color: rgba(164, 166, 167, 0.247);
+    color:white;
+    font-family: "Arial";
+    background-image: url(tlo.png);
+    background-size:100% auto ;
+    }    
+p.onas{
+    text-align: justify;
+    font-size: x-large;
+    margin: 2cm;        
+    }
+p.kontakt{
+    float:left;
+    font-size: large;
+    margin-left:-130px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    }
+            
+.naglowek{
+    height:150px;
+    width:100%;
+    margin-bottom: 1cm;
+    background-color:rgba(248, 149, 0, 0.658);
+    box-shadow: 0 0 10px rgb(248, 149, 0);
+    border-radius: 0px 50px ;
+    }
+.main{
+    position: relative;
+    left: 19%;
+    width:70%;
+    height: 70%;
+    margin-left:8%;
+    border-radius: 0px 50px ;
+    background-color:rgba(248, 149, 0, 0.397);
+    box-shadow: 0 0 10px rgba(248, 149, 0, 0.452);
+
+  
+    }
+.lewy{
+               
+    width:20%;
+    height:auto;
+    border-radius: 0px 50px;
+    background-color:rgba(248, 149, 0, 0.658);
+    box-shadow: 0 0 10px rgb(248, 149, 0);
+    float:left;
+    line-height: 1cm;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    }
+.przycisk{
+    width: 250px;
+    color: white;
+    font-size:1cm;
+    height:100px;
+    margin-left: 15px;
+    border: solid 0px rgb(255, 255, 255) ;
+    text-decoration: none;
+    transition: border-width 0.3s;
+    }
+    .przycisk:hover { border-width: 8px;}
+   
+ .galeria{
+    width: 80%;
+    transition: width 1s;
+ margin-left: 10%;
+ margin-right: 10%;
+margin-bottom: 5%;
+position: relative;
+top:-200px;
+}   
+
+
